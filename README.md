@@ -1,12 +1,33 @@
-# React + Vite
+# Pixi React Assignment 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was created as part of a Pixi.js + React integration assignment.
 
-Currently, two official plugins are available:
+##  Features Implemented
+- Responsive PixiJS canvas with dynamic resizing
+- Background rendering using `<pixiSprite>`
+- Animated fish sprites using `<pixiContainer>` and `useTick`
+- Asset loading using `Assets` from PixiJS
+- Custom hook for screen resize handling
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Work In Progress / Known Issues
+- Displacement effect is not rendering properly (tried multiple filter implementations)
+- Water overlay animation is coded but not visually visible in output
+- Background scaling is over-stretched in some resolutions
+- Due to deadline constraints, full polish is pending
 
-## Expanding the ESLint configuration
+##  Note
+This was created for the Pixi React assignment.  
+Some features are incomplete but core logic and rendering are functional.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🗓 Reminder
+This repo is temporary and will be archived or deleted after review.
+
+---
+
+###  Live Preview
+_No live demo deployed_ – please clone and run locally:
+
+```bash
+npm install
+npm run dev
+
